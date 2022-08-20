@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-@interface LiveMenusModel : NSObject
+@interface RTCLiveMenusModel : NSObject
 
 /// 菜单ID
 @property (nonatomic,strong) NSString *ID;
@@ -136,7 +136,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) int play_mode;
 
 /// 直播中文菜单
-@property (nonatomic,strong) NSArray<LiveMenusModel*> *live_menus;
+@property (nonatomic,strong) NSArray<RTCLiveMenusModel*> *live_menus;
 
 
 // 课程简介

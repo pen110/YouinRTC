@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-@interface GiftModel : NSObject
+@interface RTCGiftModel : NSObject
 
 /// 礼物id
 @property (nonatomic,strong) NSString *ID;
@@ -128,7 +128,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) BOOL barrage;
 
 /// 企业礼物
-@property (nonatomic,strong) NSArray<GiftModel*> *gift;
+@property (nonatomic,strong) NSArray<RTCGiftModel*> *gift;
 
 /// 是否过期或用量已用完
 @property (nonatomic,assign) BOOL is_can_use;

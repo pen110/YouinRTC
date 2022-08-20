@@ -1,8 +1,8 @@
 //
-//  GoodsListModel.h
+//  RTCGoodsListModel.h
 //  YouinRTC
 //
-//  Created by 潘欣 on 2022/8/16.
+//  Created by 潘欣 on 2022/8/20.
 //
 
 #import <Foundation/Foundation.h>
@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)NSMutableArray *array;
 @end
 
-@interface GoodsListModel : NSObject
+@interface RTCGoodsListModel : NSObject
 @property(nonatomic,strong) NSString *ID;
 @property(nonatomic,strong) NSString *createDate;
 @property(nonatomic,strong) NSString *living_price;

@@ -10,15 +10,11 @@
 		</data>
 		<key>Headers/CoursesModel.h</key>
 		<data>
-		D/vOIyZmGdy0l2glQTQx3d4FSeo=
+		DfLG5fxpajk1PcDwaJ+BPM/P5iM=
 		</data>
 		<key>Headers/EnterpriseProductModel.h</key>
 		<data>
-		oMqQ1kzUR788Zut68ujBSVGJ1BU=
-		</data>
-		<key>Headers/GoodsListModel.h</key>
-		<data>
-		JANOOCyBnrDtw9b7QWCidQ2qWe4=
+		nu+0xY1+NX6VjB1CFFLeunOtR8U=
 		</data>
 		<key>Headers/LiveListModel.h</key>
 		<data>
@@ -30,11 +26,15 @@
 		</data>
 		<key>Headers/MessagesModel.h</key>
 		<data>
-		BwHPJWL4O33KyKQ7bkwPblJqkhw=
+		mHdDsNogQnOUameV9i92xn//RmE=
 		</data>
 		<key>Headers/RTCEnterpriseModel.h</key>
 		<data>
-		AjObqYa9htRTgsB4gTQxpYK6wC4=
+		cnv8w/2dCgbZbizKQ8E2+v52Rno=
+		</data>
+		<key>Headers/RTCGoodsListModel.h</key>
+		<data>
+		rie3dls/Em7Jf7etu7pokgh4gbA=
 		</data>
 		<key>Headers/StatusModel.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/YouinRTC.h</key>
 		<data>
-		l5SaxFjjXpbgwFXXOsHS7MYQswo=
+		UhHXyex9UVbQrUvnu8JyyennUGA=
 		</data>
 		<key>Headers/YouinRTCDefine.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/YouinRTCManager.h</key>
 		<data>
-		AzYuD/MChlwiKbA4JcKmmO41Ypk=
+		mwg70nAbxiYqgIv3YKalbxdLlrQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -78,33 +78,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D/vOIyZmGdy0l2glQTQx3d4FSeo=
+			DfLG5fxpajk1PcDwaJ+BPM/P5iM=
 			</data>
 			<key>hash2</key>
 			<data>
-			wgQhimN0CtsNS47cZFSgm/TLnoI0gl4VnBmxHquRLRA=
+			1axGaVMDA+MimT54c6w74w4aNwUpdKtuQi6j3SIoISw=
 			</data>
 		</dict>
 		<key>Headers/EnterpriseProductModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oMqQ1kzUR788Zut68ujBSVGJ1BU=
+			nu+0xY1+NX6VjB1CFFLeunOtR8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			LvC6FydrO2ZgSZYif5Gy0b8d1Jg9Ufo/57a3vfDJd3s=
-			</data>
-		</dict>
-		<key>Headers/GoodsListModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JANOOCyBnrDtw9b7QWCidQ2qWe4=
-			</data>
-			<key>hash2</key>
-			<data>
-			kDsQMf/sstlKkCIs/9RhNRc+sL7PxiDxaa/yoGZ1n58=
+			05noBoiwkwifM3ivhCcB6SGdb5zkCB/1KCZxCPVZf78=
 			</data>
 		</dict>
 		<key>Headers/LiveListModel.h</key>
@@ -133,22 +122,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BwHPJWL4O33KyKQ7bkwPblJqkhw=
+			mHdDsNogQnOUameV9i92xn//RmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			rBTmzn1TgnpZESAlDoU9AV31RCW2egGbe4XJJXhaJhM=
+			ArNY75OI7Lhi/C7DkZ6U79Jj57x9uyDH7H50uT5UAv8=
 			</data>
 		</dict>
 		<key>Headers/RTCEnterpriseModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AjObqYa9htRTgsB4gTQxpYK6wC4=
+			cnv8w/2dCgbZbizKQ8E2+v52Rno=
 			</data>
 			<key>hash2</key>
 			<data>
-			K6b15gXzq40ClRxkuA3Y8SlBhmdmvaYAnu04qxInhCU=
+			6z8QxYgmknl8t+vCx4D5Kdxa3fT/Sv/9kpYp45wI+dA=
+			</data>
+		</dict>
+		<key>Headers/RTCGoodsListModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rie3dls/Em7Jf7etu7pokgh4gbA=
+			</data>
+			<key>hash2</key>
+			<data>
+			dmULt2ka01wki9ZagMTV7lxGKcj2pS0bpIjqIR6VOU4=
 			</data>
 		</dict>
 		<key>Headers/StatusModel.h</key>
@@ -166,11 +166,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l5SaxFjjXpbgwFXXOsHS7MYQswo=
+			UhHXyex9UVbQrUvnu8JyyennUGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			XsbPqvZ5yLCk8QGn2VBCXFo73seqz9s2DlYyCKABzq8=
+			t+IQPefIMvX+hnEUIUgVsIlaxS2/aN2gGdcshtexxhc=
 			</data>
 		</dict>
 		<key>Headers/YouinRTCDefine.h</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AzYuD/MChlwiKbA4JcKmmO41Ypk=
+			mwg70nAbxiYqgIv3YKalbxdLlrQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			m93alYtn6ksczisXAgeU4FWDrCZXiXyflItY7k/fYSY=
+			g75ftf1ac/ACEOAgr5dLyH1DxZypyr102fvdggQ0dsU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

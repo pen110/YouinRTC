@@ -25,7 +25,7 @@
 #import "YouinRTCDefine.h"
 #import "MessagesModel.h"
 #import "LiveListModel.h"
-#import "GoodsListModel.h"
+#import "RTCGoodsListModel.h"
 #import "EnterpriseProductModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
@@ -64,7 +64,7 @@ typedef void (^failure)(id error);
 
 /// 房间用户列表
 /// @param userList 用户列表
--(void)userList:(NSArray<userInfoModel *>*)userList;
+-(void)userList:(NSArray<RTCUserInfoModel *>*)userList;
 
 
 @end
@@ -120,7 +120,7 @@ typedef void (^failure)(id error);
 
 /// 房间用户列表
 /// @param userList 用户列表
--(void)userList:(NSArray<userInfoModel *>*)userList;
+-(void)userList:(NSArray<RTCUserInfoModel *>*)userList;
 
 /*!
  * @abstract SDK 运行过程中发生错误会通过该方法回调。
@@ -403,13 +403,13 @@ didGetAudioBuffer:(AudioBuffer *)audioBuffer
 @property(nonatomic,assign) BOOL isDirectOrAssistant;
 
 /// 主持人信息
-@property (nonatomic,strong) userInfoModel *hostInfoModel;
+@property (nonatomic,strong) RTCUserInfoModel *hostInfoModel;
 
 /// 申请人信息
-@property (nonatomic,strong) userInfoModel *applyUserInfoModel;
+@property (nonatomic,strong) RTCUserInfoModel *applyUserInfoModel;
 
 ///房间成员列表
-@property (nonatomic,strong) NSMutableArray <userInfoModel *> *userList;
+@property (nonatomic,strong) NSMutableArray <RTCUserInfoModel *> *userList;
 
 ///audioTrack
 @property (nonatomic,strong) QNTrackInfo *audioTrack;

@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GoodsListModel.h"
+#import "RTCGoodsListModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface EnterpriseProductModel : NSObject
@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *msg;
 @property(nonatomic,assign) int counts;
 @property(nonatomic,assign) int code;
-@property(nonatomic,strong) NSArray<GoodsProductModel *> *result;
+@property(nonatomic,strong) NSArray<RTCGoodsListModel *> *result;
 @property(nonatomic,assign) int order_no;
 @end
 

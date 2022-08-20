@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface userInfoModel : NSObject
+@interface RTCUserInfoModel : NSObject
 @property(nonatomic,strong) NSString *userId;
 @property(nonatomic,strong) NSString *userName;
 @property(nonatomic,strong) NSString *avatar;
@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface roomStatusModel : NSObject
 
 /// 主持人信息
-@property(nonatomic,strong) userInfoModel *hostUserInfo;
+@property(nonatomic,strong) RTCUserInfoModel *hostUserInfo;
 
 /// 是否在房间中
 @property(nonatomic,assign) BOOL  isUseInhome;
@@ -53,7 +53,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign) BOOL  isRoomMuteAll;
 @end
 
-@interface attModel : NSObject
+@interface RTCAttModel : NSObject
 @property(nonatomic,strong) NSString *avatar;
 @property(nonatomic,assign) int userStatus;
 @property(nonatomic,assign) int pv_count;
@@ -67,7 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *url_rtmp;
 @end
 
-@interface ProductModel : NSObject
+@interface RTCProductModel : NSObject
 @property(nonatomic,strong) NSString *app_id;
 @property(nonatomic,strong) NSString *app_turn_url;
 @property(nonatomic,strong) NSString *createDate;
@@ -92,7 +92,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface textModel : NSObject
 @property(nonatomic,strong) NSString *text;
 @property(nonatomic,strong) NSString *type;
-@property(nonatomic,strong) ProductModel *product;
+@property(nonatomic,strong) RTCProductModel *product;
 @property(nonatomic,strong) NSString*  userId;
 @property(nonatomic,assign) BOOL  status;
 @property(nonatomic,strong) NSString *timeStamp;
@@ -128,7 +128,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MessagesModel : NSObject
 @property(nonatomic,strong) NSString *_lctype;
 @property(nonatomic,strong) textModel *_lctext;
-@property(nonatomic,strong) attModel *_lcattrs;
+@property(nonatomic,strong) RTCAttModel *_lcattrs;
 @property(nonatomic,strong) fileModel *_lcfile;
 @end
 
