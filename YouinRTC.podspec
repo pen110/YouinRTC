@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   s.dependency 'MJExtension','~> 3.3.0'
   s.dependency 'QNRTCKit','~> 3.1.2'
   s.dependency 'SocketRocket','~> 0.6.0'
-  s.dependency 'LeanCloudObjc','~> 13.3.0'
+  s.dependency 'LeanCloudObjc','~> 13.9.0'
 
 end
 
