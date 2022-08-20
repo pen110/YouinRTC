@@ -1,0 +1,6 @@
+framework module YouinRTC {
+  umbrella header "YouinRTC.h"
+
+  export *
+  module * { export * }
+}
