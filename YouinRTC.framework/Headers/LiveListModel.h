@@ -72,7 +72,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)EnterModel *enterprise;
 @property (nonatomic,strong)NSString *enterprise_id;
 @property (nonatomic,strong)NSString *foreign_video_info;
-@property (nonatomic,strong)HeadVideoModel *headvideo;
+@property (nonatomic,strong)RTCHeadVideoModel *headvideo;
 @property (nonatomic,strong)NSString *ID;
 @property (nonatomic,strong)NSString *image;
 @property (nonatomic,assign)int isImageText;

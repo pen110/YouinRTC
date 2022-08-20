@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 
-@interface LiveMenusENModel : NSObject
+@interface RTCLiveMenusENModel : NSObject
 
 /// 菜单ID
 @property (nonatomic,strong) NSString *ID;
@@ -64,7 +64,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface HeadVideoModel : NSObject
+@interface RTCHeadVideoModel : NSObject
 
 /// 视频url
 @property (nonatomic,strong) NSString *head_video_url;
@@ -77,7 +77,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface ForLanguageModel : NSObject
+@interface RTCForLanguageModel : NSObject
 
 /// 是否开启
 @property (nonatomic,assign) BOOL isShow;
@@ -109,7 +109,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) BOOL anonymous_login;
 
 /// 英文菜单
-@property (nonatomic,strong) NSArray<LiveMenusENModel*> *live_menus_en;
+@property (nonatomic,strong) NSArray<RTCLiveMenusENModel*> *live_menus_en;
 
 /// 是否允许观看回放
 @property (nonatomic,assign) BOOL record_access;
@@ -152,13 +152,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) BOOL is_dummy_pv;
 
 /// 暖场视频
-@property (nonatomic,strong) HeadVideoModel *head_video;
+@property (nonatomic,strong) RTCHeadVideoModel *head_video;
 
 /// 是否开启了购物车
 @property (nonatomic,assign) BOOL has_product;
 
 /// 双线路推流
-@property (nonatomic,strong) ForLanguageModel *foreign_language_watch;
+@property (nonatomic,strong) RTCForLanguageModel *foreign_language_watch;
 
 /// 邀请卡图片
 @property (nonatomic,strong) NSString *code;
