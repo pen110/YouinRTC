@@ -116,7 +116,7 @@ typedef void (^failure)(id error);
 /// 返回房间信息
 /// 包括主持人信息、房间状态。
 /// @param roomInfo 房间信息
--(void)YouinRoomInfo:(roomStatusModel*)roomInfo;
+-(void)YouinRoomInfo:(RTCRoomStatusModel*)roomInfo;
 
 /// 房间用户列表
 /// @param userList 用户列表
@@ -585,13 +585,13 @@ YouinActionUserLeave
 /// 获取历史公告
 /// @param success 公告数组
 /// @param failure 错误
--(void)getHistoyNotice:(void (^)(NSArray<LiveNoticeModel *> *content))success failure:(void (^)(NSError *error))failure;
+-(void)getHistoyNotice:(void (^)(NSArray<RTCLiveNoticeModel *> *content))success failure:(void (^)(NSError *error))failure;
 
 /// 发送历史公告
 /// @param model 公告模型
 /// @param success 成功
 /// @param failure 失败
--(void)sendNotice:(LiveNoticeModel *)model success:(void (^)(bool success))success failure:(void (^)(NSError *error))failure;
+-(void)sendNotice:(RTCLiveNoticeModel *)model success:(void (^)(bool success))success failure:(void (^)(NSError *error))failure;
 
 
 

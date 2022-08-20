@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/MessagesModel.h</key>
 		<data>
-		mHdDsNogQnOUameV9i92xn//RmE=
+		+gg7yr4ABN/Cpyf5yFErvXpa9tE=
 		</data>
 		<key>Headers/RTCEnterpriseModel.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/RTCGoodsListModel.h</key>
 		<data>
-		rie3dls/Em7Jf7etu7pokgh4gbA=
+		ylFl2yalUeuGc3zbwMo0ooF3ZuM=
 		</data>
 		<key>Headers/StatusModel.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/YouinRTCManager.h</key>
 		<data>
-		mwg70nAbxiYqgIv3YKalbxdLlrQ=
+		xODvVY5/qxOcvj4hU35TSV3Cqew=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -122,11 +122,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mHdDsNogQnOUameV9i92xn//RmE=
+			+gg7yr4ABN/Cpyf5yFErvXpa9tE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ArNY75OI7Lhi/C7DkZ6U79Jj57x9uyDH7H50uT5UAv8=
+			Muj3f6E3KzCb8qnmKgke9XfkbyBGD9Gt06+5cQBtkMk=
 			</data>
 		</dict>
 		<key>Headers/RTCEnterpriseModel.h</key>
@@ -144,11 +144,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rie3dls/Em7Jf7etu7pokgh4gbA=
+			ylFl2yalUeuGc3zbwMo0ooF3ZuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			dmULt2ka01wki9ZagMTV7lxGKcj2pS0bpIjqIR6VOU4=
+			u4PgzWEWUe0JRIeW5e5TVawrvhRXWPnqd8nPf4u+u7U=
 			</data>
 		</dict>
 		<key>Headers/StatusModel.h</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mwg70nAbxiYqgIv3YKalbxdLlrQ=
+			xODvVY5/qxOcvj4hU35TSV3Cqew=
 			</data>
 			<key>hash2</key>
 			<data>
-			g75ftf1ac/ACEOAgr5dLyH1DxZypyr102fvdggQ0dsU=
+			sMvqRKkQeYySby1QkBuzbWyDUL6OvZgwOlyNWKv3XM4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

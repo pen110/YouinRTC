@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 
-@interface GoodsProductModel : NSObject
+@interface RTCGoodsProductModel : NSObject
 @property(nonatomic,strong) NSString *app_id;
 @property(nonatomic,strong) NSString *app_turn_url;
 @property(nonatomic,strong) NSString *createDate;
@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *ID;
 @property(nonatomic,strong) NSString *createDate;
 @property(nonatomic,strong) NSString *living_price;
-@property(nonatomic,strong) GoodsProductModel *product;
+@property(nonatomic,strong) RTCGoodsProductModel *product;
 @property(nonatomic,assign) NSInteger order_no;
 @property(nonatomic,assign) NSInteger sort_no;
 @property(nonatomic,assign) BOOL isShow;

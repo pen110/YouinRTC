@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign) BOOL  interactive;
 @end
 
-@interface roomStatusModel : NSObject
+@interface RTCRoomStatusModel : NSObject
 
 /// 主持人信息
 @property(nonatomic,strong) RTCUserInfoModel *hostUserInfo;
@@ -89,7 +89,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface textModel : NSObject
+@interface RTCTextModel : NSObject
 @property(nonatomic,strong) NSString *text;
 @property(nonatomic,strong) NSString *type;
 @property(nonatomic,strong) RTCProductModel *product;
@@ -120,20 +120,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface fileModel : NSObject
+@interface RTCFileModel : NSObject
 @property(nonatomic,strong) NSString *objId;
 @property(nonatomic,strong) NSString *url;
 @end
 
 @interface MessagesModel : NSObject
 @property(nonatomic,strong) NSString *_lctype;
-@property(nonatomic,strong) textModel *_lctext;
+@property(nonatomic,strong) RTCTextModel *_lctext;
 @property(nonatomic,strong) RTCAttModel *_lcattrs;
-@property(nonatomic,strong) fileModel *_lcfile;
+@property(nonatomic,strong) RTCFileModel *_lcfile;
 @end
 
 
-@interface LiveNoticeModel : NSObject
+@interface RTCLiveNoticeModel : NSObject
 @property(nonatomic,assign) int ID;
 @property(nonatomic,strong) NSString *content;
 @property(nonatomic,assign) int type;
