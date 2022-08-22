@@ -28,7 +28,7 @@
 #import "RTCGoodsListModel.h"
 #import "EnterpriseProductModel.h"
 NS_ASSUME_NONNULL_BEGIN
-
+@class YouinRTCManager;
 #pragma mark - delegate
 typedef void ( ^successBloc) (id json);
 // 请求失败
@@ -73,6 +73,12 @@ typedef void (^failure)(id error);
 @protocol YouinRTCDelegate <NSObject>
 
 @optional
+
+
+/// 点赞回调
+/// @param manager manager description
+/// @param attModel attModel description
+-(void)youinManager:(YouinRTCManager *)manager likeInfo:(nullable RTCAttModel *)attModel;
 
 
 /*!
@@ -682,10 +688,19 @@ YouinActionUserLeave
 /// @param failure failure description
 - (void)getUploadFile:(UIImage *)image successBlock:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
+
 /// 编辑已创建好的直播间
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)getModifyCourse:(NSDictionary *)params successBlock:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+
+/// 点赞
+/// @param count 连续点击多次
+/// @param success success description
+/// @param failure failure description
+-(void)doLikeWithCount:(NSInteger)count Action:(successBloc)success failure:(void (^)(NSError * _Nonnull))failure;
+
 @end
 
 NS_ASSUME_NONNULL_END

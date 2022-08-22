@@ -7,8 +7,10 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
+#import "MessagesModel.h"
 NS_ASSUME_NONNULL_BEGIN
+
+
 
 @interface BaseMsgModel : NSObject
 @property(nonatomic,strong) NSString* nickName;
@@ -28,6 +30,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,strong)UIColor *color;
 
+
+//引用
+@property(nonatomic,strong) NSString* msg;
+@property(nonatomic,strong) RTCReferenceInfo *referenceInfo;
+@property(nonatomic,strong) NSString *type;
 @end
 
 NS_ASSUME_NONNULL_END

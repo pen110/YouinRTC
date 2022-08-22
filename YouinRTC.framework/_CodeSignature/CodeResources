@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BaseMsgModel.h</key>
 		<data>
-		w6bWq/LPbc3EaNt/DjQ7DmoPKJ8=
+		B4WpsfkQDZEpeyhJlMuLD2QlmSM=
 		</data>
 		<key>Headers/CoursesModel.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/MessagesModel.h</key>
 		<data>
-		+gg7yr4ABN/Cpyf5yFErvXpa9tE=
+		ravzreUHG4BLzMByZB1Oo1rq+R8=
 		</data>
 		<key>Headers/RTCEnterpriseModel.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/YouinRTCManager.h</key>
 		<data>
-		xODvVY5/qxOcvj4hU35TSV3Cqew=
+		BYW7wHuK4l6Pm6Rsl/FPkvig5JE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w6bWq/LPbc3EaNt/DjQ7DmoPKJ8=
+			B4WpsfkQDZEpeyhJlMuLD2QlmSM=
 			</data>
 			<key>hash2</key>
 			<data>
-			p/Men4ZHjpYPaMInQC+9TJMsk7DjaMCFuZCU116kttw=
+			r8cWzTI0J8xUukQHp24KesV51q5F2FeeKKFQoSLASj8=
 			</data>
 		</dict>
 		<key>Headers/CoursesModel.h</key>
@@ -122,11 +122,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+gg7yr4ABN/Cpyf5yFErvXpa9tE=
+			ravzreUHG4BLzMByZB1Oo1rq+R8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Muj3f6E3KzCb8qnmKgke9XfkbyBGD9Gt06+5cQBtkMk=
+			lkR4gWsOcJgWoSnUjk+PFB1KcT+sPJcjQ6Co/jvVdIc=
 			</data>
 		</dict>
 		<key>Headers/RTCEnterpriseModel.h</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xODvVY5/qxOcvj4hU35TSV3Cqew=
+			BYW7wHuK4l6Pm6Rsl/FPkvig5JE=
 			</data>
 			<key>hash2</key>
 			<data>
-			sMvqRKkQeYySby1QkBuzbWyDUL6OvZgwOlyNWKv3XM4=
+			nQm8KIRurRT+AjB15hQEAi86WlZVcHnrQTzzUYHooC4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

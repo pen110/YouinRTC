@@ -6,8 +6,18 @@
 //
 
 #import <Foundation/Foundation.h>
-
 NS_ASSUME_NONNULL_BEGIN
+//引用的消息体
+@interface RTCReferenceInfo : NSObject
+@property(nonatomic,strong) NSString *attribute;
+@property(nonatomic,strong) NSString *avatar;
+@property(nonatomic,strong) NSString *content;
+@property(nonatomic,strong) NSString *ID;
+@property(nonatomic,strong) NSString *timer;
+@property(nonatomic,strong) NSString *type;
+@property(nonatomic,strong) NSString *userId;
+@property(nonatomic,strong) NSString *userName;
+@end
 
 @interface RTCUserInfoModel : NSObject
 @property(nonatomic,strong) NSString *userId;
@@ -117,7 +127,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign) BOOL  closed_wheat;
 @property(nonatomic,assign) int  wheat_mode;
 @property(nonatomic,assign) BOOL  interactive;
-
+//引用发送的消息
+@property(nonatomic,strong) NSString *msg;
+@property(nonatomic,strong) RTCReferenceInfo *referenceInfo;
 @end
 
 @interface RTCFileModel : NSObject
