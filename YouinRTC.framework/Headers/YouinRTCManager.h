@@ -701,6 +701,26 @@ YouinActionUserLeave
 /// @param failure failure description
 -(void)doLikeWithCount:(NSInteger)count Action:(successBloc)success failure:(void (^)(NSError * _Nonnull))failure;
 
+
+/// 置顶商品
+/// @param paramars 传入直播id，和商品id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getProductSetTop:(NSDictionary *)paramars successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+
+
+/// 删除商品
+/// @param paramars enterprise_id 企业id 和商品id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getDelProductSet:(NSDictionary *)paramars successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+/// 移动商品
+/// @param params course_id直播id，id 商品外侧id，product_id商品id，sort_no商品的位置，type: "sort"
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getMoveProductReset:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 @end
 
 NS_ASSUME_NONNULL_END
