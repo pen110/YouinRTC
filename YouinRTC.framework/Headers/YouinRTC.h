@@ -21,3 +21,4 @@ FOUNDATION_EXPORT const unsigned char YouinRTCVersionString[];
 #import <YouinRTC/LiveListModel.h>
 #import <YouinRTC/RTCGoodsListModel.h>
 #import <YouinRTC/EnterpriseProductModel.h>
+#import <YouinRTC/RTCKickOutListModel.h>

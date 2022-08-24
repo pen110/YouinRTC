@@ -27,6 +27,7 @@
 #import "LiveListModel.h"
 #import "RTCGoodsListModel.h"
 #import "EnterpriseProductModel.h"
+#import "RTCKickOutListModel.h"
 NS_ASSUME_NONNULL_BEGIN
 @class YouinRTCManager;
 #pragma mark - delegate
@@ -550,7 +551,7 @@ YouinActionUserLeave
 
 #pragma mark - 主持人专属功能
 
-/// 禁言所有人
+/// 禁言所有人 (连麦)
 /// @param isMute 是否禁言所有人
 -(void)muteAllSpeaker:(BOOL)isMute;
 
@@ -709,7 +710,6 @@ YouinActionUserLeave
 - (void)getProductSetTop:(NSDictionary *)paramars successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
 
-
 /// 删除商品
 /// @param paramars enterprise_id 企业id 和商品id
 /// @param successBlock successBlock description
@@ -721,6 +721,49 @@ YouinActionUserLeave
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)getMoveProductReset:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+    
+
+/// 禁言某人
+/// @param params image,nickname,user_id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getAddForbidden:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+/// 踢出直播间
+/// @param params course_id,直播间id，image头像，nickname昵称，user_id用户id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getAddKickOut:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+/// 主播禁言所有人
+/// @param isMute isMute description
+- (void)forbiddenAll:(BOOL)isMute;
+
+/// 黑名单列表
+/// @param params liveId直播间id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getListKickOut:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+/// 黑名单列表
+/// @param params 移除黑名单用户id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getDelKickOut:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+/// 禁言列表
+/// @param params 直播间id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getListForbiddenWords:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+
+/// 解开禁言
+/// @param params 禁言者的id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getDelForbiddenWords:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
 @end
 
 NS_ASSUME_NONNULL_END
