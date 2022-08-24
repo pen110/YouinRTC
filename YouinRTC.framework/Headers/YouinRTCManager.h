@@ -724,7 +724,7 @@ YouinActionUserLeave
     
 
 /// 禁言某人
-/// @param params image,nickname,user_id
+/// @param params image,nickname,user_id,liveId
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)getAddForbidden:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
