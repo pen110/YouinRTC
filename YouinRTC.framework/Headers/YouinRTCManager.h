@@ -745,8 +745,8 @@ YouinActionUserLeave
 /// @param failure failure description
 - (void)getListKickOut:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
-/// 黑名单列表
-/// @param params 移除黑名单用户id
+/// 移除黑名单
+/// @param params 移除黑名单列表中的id
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)getDelKickOut:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
@@ -759,7 +759,7 @@ YouinActionUserLeave
 
 
 /// 解开禁言
-/// @param params 禁言者的id
+/// @param params 禁言列表中的id
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)getDelForbiddenWords:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
