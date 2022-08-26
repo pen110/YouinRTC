@@ -25,9 +25,26 @@ NS_ASSUME_NONNULL_BEGIN
 /// 直播状态  4未开始1直播中2主播不在3直播已结束
 @property (nonatomic,assign) int live_status;
 
-/// 观看人数
+/// 真实访问人次
 @property (nonatomic,assign) int pv_count;
 
+/// 美化后人数
+@property (nonatomic,assign) int dummy_pv_count;
+
+/// 美化后 点赞数
+@property (nonatomic,assign) int dummy_like_count;
+
+/// 当前在线人数
+@property (nonatomic,assign) int current_watch_count;
+
+/// 最高在线人数
+@property (nonatomic,assign) int max_watch_count;
+
+/// 真实访问人数
+@property (nonatomic,assign) int uv_count;
+
+///分享次数
+@property (nonatomic,assign) int share_count;
 @end
 
 NS_ASSUME_NONNULL_END

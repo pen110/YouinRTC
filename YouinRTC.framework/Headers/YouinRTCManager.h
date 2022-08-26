@@ -84,6 +84,12 @@ typedef void (^failure)(id error);
 /// @param attModel attModel description
 -(void)youinManager:(YouinRTCManager *)manager likeInfo:(nullable RTCAttModel *)attModel;
 
+/// 送礼通知
+/// @param manager manager description
+/// @param gift gift description
+-(void)youinManager:(YouinRTCManager *)manager sendGift:(nullable RTCAttModel *)gift;
+
+
 
 /*!
  * @abstract 信令回调
@@ -786,6 +792,19 @@ YouinActionUserLeave
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)getOnLineAudienceList:(NSString *)params withPage:(int)page successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull))failure;
+
+
+/// 访问数据倍增 开启后，观众每次访问，观看页会随机增加1～20人次
+/// @param params liveId:直播间Id，id:权限id，isShow：是否开启
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getRoomFuncSetting:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(failure)failure;
+
+/// 观看页公开数据设置
+/// @param params liveId:直播id,dummy_like_count:虚拟点赞,dummy_pv_count:虚拟观看
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getRoomEditStatistics:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(failure)failure;
 @end
 
 NS_ASSUME_NONNULL_END

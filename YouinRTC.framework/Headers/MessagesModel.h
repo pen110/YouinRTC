@@ -68,13 +68,21 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign) int userStatus;
 @property(nonatomic,assign) int pv_count;
 @property(nonatomic,assign) int like_count;
+@property(nonatomic,assign) int count;
+@property(nonatomic,assign) int dummy_like_count;
 @property(nonatomic,strong) NSString *ws_type;
 @property(nonatomic,strong) NSString *type;
 @property(nonatomic,strong) NSString* userId;
+@property(nonatomic,strong) NSString* third_user_id;
+@property(nonatomic,strong) NSString* image;
+@property(nonatomic,strong) NSString* nickname;
 @property(nonatomic,assign) BOOL status;
 @property(nonatomic,strong) NSString *url_flv;
 @property(nonatomic,strong) NSString *url_hls;
 @property(nonatomic,strong) NSString *url_rtmp;
+@property(nonatomic,strong) NSString *gift_name;
+@property(nonatomic,strong) NSString *gift_image;
+@property(nonatomic,strong) NSString *user_image;
 @end
 
 @interface RTCProductModel : NSObject
