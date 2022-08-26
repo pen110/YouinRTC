@@ -28,6 +28,9 @@
 #import "RTCGoodsListModel.h"
 #import "EnterpriseProductModel.h"
 #import "RTCKickOutListModel.h"
+#import "RTCRankingGiftModel.h"
+#import "RTCInvitesListModel.h"
+#import "RTCOnlineAudiModel.h"
 NS_ASSUME_NONNULL_BEGIN
 @class YouinRTCManager;
 #pragma mark - delegate
@@ -764,6 +767,25 @@ YouinActionUserLeave
 /// @param failure failure description
 - (void)getDelForbiddenWords:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
+
+/// 送礼物排行榜
+/// @param params liveId直播间Id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getRankingGift:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+
+/// 邀请排行榜
+/// @param params liveId直播间Id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getInvitesList:(NSString *)params withPage:(int)page successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull))failure;
+
+
+/// 在线观众列表
+/// @param params liveId直播间Id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getOnLineAudienceList:(NSString *)params withPage:(int)page successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull))failure;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -100,6 +100,13 @@ NS_ASSUME_NONNULL_BEGIN
 //# 1：直播，2：直播转录播 3：上传录播
 @property (nonatomic,assign)int type;
 @property (nonatomic,strong)NSString *user_id;
+//回放链接，m3u8_url和mp4_url 都可以，常用mp4_url
+@property (nonatomic,strong)NSString *mp4_url;
+@property (nonatomic,strong)NSString *m3u8_url;
+//app观看链接
+@property (nonatomic,strong)NSString *appwatchurl;
+//pc观看链接
+@property (nonatomic,strong)NSString *pcwatchurl;
 @property (nonatomic,strong)VideoinfoExtend *videoinfo_extend;
 @end
 

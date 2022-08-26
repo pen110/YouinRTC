@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/LiveListModel.h</key>
 		<data>
-		qAQFb1qrBNEP+sUHqgMvzQXMOuA=
+		WUhr9qregN6dLn+ph+7FjK1FVbk=
 		</data>
 		<key>Headers/LoginUserModel.h</key>
 		<data>
@@ -36,9 +36,21 @@
 		<data>
 		ylFl2yalUeuGc3zbwMo0ooF3ZuM=
 		</data>
+		<key>Headers/RTCInvitesListModel.h</key>
+		<data>
+		25/tdAml9D+Y1o/Nv59FqcyHfaE=
+		</data>
 		<key>Headers/RTCKickOutListModel.h</key>
 		<data>
 		yZHHWe/ioBB2vjKKB0SOSk/U8ko=
+		</data>
+		<key>Headers/RTCOnlineAudiModel.h</key>
+		<data>
+		kAuEsxmcgxewQ0gpcSOGzDfpCGY=
+		</data>
+		<key>Headers/RTCRankingGiftModel.h</key>
+		<data>
+		8na1sJtMkSr91HT3KApfYQ52lvc=
 		</data>
 		<key>Headers/StatusModel.h</key>
 		<data>
@@ -46,7 +58,7 @@
 		</data>
 		<key>Headers/YouinRTC.h</key>
 		<data>
-		WwbYqB73QvEYkTHZUuxyxUhC1X8=
+		HQP3b0cF/p/2MTQbUIGGxE9gM80=
 		</data>
 		<key>Headers/YouinRTCDefine.h</key>
 		<data>
@@ -54,7 +66,7 @@
 		</data>
 		<key>Headers/YouinRTCManager.h</key>
 		<data>
-		ew7vdBtsQoj1C7xzq7rtH6x1tXo=
+		8VI3uu2ZWIyYlLFjgME2TU7TnPc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -104,11 +116,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qAQFb1qrBNEP+sUHqgMvzQXMOuA=
+			WUhr9qregN6dLn+ph+7FjK1FVbk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Owj1+nSbgvhyO7W60CDc7l0dF8naVSblzkzYsHZslI4=
+			99F4b5mJMx4d7kkb+mO02QUNwGFZuVw91CR2RD6Rp6Y=
 			</data>
 		</dict>
 		<key>Headers/LoginUserModel.h</key>
@@ -155,6 +167,17 @@
 			u4PgzWEWUe0JRIeW5e5TVawrvhRXWPnqd8nPf4u+u7U=
 			</data>
 		</dict>
+		<key>Headers/RTCInvitesListModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			25/tdAml9D+Y1o/Nv59FqcyHfaE=
+			</data>
+			<key>hash2</key>
+			<data>
+			tkXkC96p6c/KIbRCokI3svQ25ot1cmDShpSyaIixgYU=
+			</data>
+		</dict>
 		<key>Headers/RTCKickOutListModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -164,6 +187,28 @@
 			<key>hash2</key>
 			<data>
 			Q/CxwUOofjX82XiZlpW5gfZa8TKwZlpIlu/dM0QKZy8=
+			</data>
+		</dict>
+		<key>Headers/RTCOnlineAudiModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kAuEsxmcgxewQ0gpcSOGzDfpCGY=
+			</data>
+			<key>hash2</key>
+			<data>
+			uYi4n5anEvuwqaeuC5DxlOgPABTEuIHjK4qGLrNzHZI=
+			</data>
+		</dict>
+		<key>Headers/RTCRankingGiftModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8na1sJtMkSr91HT3KApfYQ52lvc=
+			</data>
+			<key>hash2</key>
+			<data>
+			56TGqvGRPqvPNbEbi9kC1n73NDxBwin+VaNPELlkuPs=
 			</data>
 		</dict>
 		<key>Headers/StatusModel.h</key>
@@ -181,11 +226,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WwbYqB73QvEYkTHZUuxyxUhC1X8=
+			HQP3b0cF/p/2MTQbUIGGxE9gM80=
 			</data>
 			<key>hash2</key>
 			<data>
-			UEc83vtCMS4eWWGXgDbGe4oyT2ptNCb9XN24sIM0p4I=
+			D17pYs/I1Q3CSXwnsuwrulmTkp5FXpxNWcOFBN6uFao=
 			</data>
 		</dict>
 		<key>Headers/YouinRTCDefine.h</key>
@@ -203,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ew7vdBtsQoj1C7xzq7rtH6x1tXo=
+			8VI3uu2ZWIyYlLFjgME2TU7TnPc=
 			</data>
 			<key>hash2</key>
 			<data>
-			uErelqLNeoR4dbZyoI7msO2jfhE+jvAKtger0DfsmJo=
+			VssxFy1EkVP1eUZ+lv2btaMppxO2h6mOHCsfuEAUI6k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
