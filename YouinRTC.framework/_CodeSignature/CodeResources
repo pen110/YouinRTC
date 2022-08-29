@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BaseMsgModel.h</key>
 		<data>
-		B4WpsfkQDZEpeyhJlMuLD2QlmSM=
+		j57amECV6tUx/e+n4SaxxdGZXi8=
 		</data>
 		<key>Headers/CoursesModel.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/YouinRTCManager.h</key>
 		<data>
-		BW0ifawPudMCoQeODEhB0fmq++Y=
+		CE4OG9yicJ2kE/aytByGznspVUA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -83,11 +83,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B4WpsfkQDZEpeyhJlMuLD2QlmSM=
+			j57amECV6tUx/e+n4SaxxdGZXi8=
 			</data>
 			<key>hash2</key>
 			<data>
-			r8cWzTI0J8xUukQHp24KesV51q5F2FeeKKFQoSLASj8=
+			SJWATsmxCVD9mirksJBBaHpN3n4LSBajZ3smxwSxHD4=
 			</data>
 		</dict>
 		<key>Headers/CoursesModel.h</key>
@@ -248,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BW0ifawPudMCoQeODEhB0fmq++Y=
+			CE4OG9yicJ2kE/aytByGznspVUA=
 			</data>
 			<key>hash2</key>
 			<data>
-			fwge+pV8g6zti/RhWFLHhrDIj23nLvQvzmvZM1Me4ZM=
+			4jQMjOOMs3T0X1ncfoo24GdG+6/dzSlBr11+V9kWq8Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

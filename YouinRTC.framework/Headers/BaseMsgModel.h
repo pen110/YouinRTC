@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString* imageUrl;
 @property(nonatomic,strong) UIImage* image;
 @property(nonatomic,assign) int sendTime;
-
+@property(nonatomic,strong) NSString *third_id;
 @property(nonatomic,strong)UIColor *color;
 
 
