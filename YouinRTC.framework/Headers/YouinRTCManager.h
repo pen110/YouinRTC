@@ -807,8 +807,8 @@ YouinActionUserLeave
 - (void)getRoomEditStatistics:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(failure)failure;
 
 
-/// 马甲评论 (content:发送内容，msg_type: "text / image)
-/// @param params liveId:直播id,dummy_like_count:虚拟点赞,dummy_pv_count:虚拟观看
+/// 马甲评论
+/// @param params (content:发送内容，msg_type: "text / image)
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)getAnonymousUserSendMsg:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(failure)failure;
