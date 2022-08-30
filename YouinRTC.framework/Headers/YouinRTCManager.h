@@ -778,7 +778,7 @@ YouinActionUserLeave
 /// @param params liveId直播间Id
 /// @param successBlock successBlock description
 /// @param failure failure description
-- (void)getRankingGift:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+- (void)getRTCRankingGift:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
 /// 邀请排行榜
 /// @param params liveId直播间Id
