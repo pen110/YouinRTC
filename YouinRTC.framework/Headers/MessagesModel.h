@@ -83,6 +83,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *gift_name;
 @property(nonatomic,strong) NSString *gift_image;
 @property(nonatomic,strong) NSString *user_image;
+//礼物个数
+@property(nonatomic,assign) int gift_count;
 @end
 
 @interface RTCProductModel : NSObject
