@@ -89,6 +89,10 @@ typedef void (^failure)(id error);
 /// @param gift gift description
 -(void)youinManager:(YouinRTCManager *)manager sendGift:(nullable RTCAttModel *)gift;
 
+/// 打开红包 has_red = 1 
+/// @param manager manager description
+/// @param redPacket redPacket description
+-(void)youinManager:(YouinRTCManager *)manager hasRedPacket:(nullable RTCTextModel *)redPacket;
 
 
 /*!
