@@ -816,6 +816,13 @@ YouinActionUserLeave
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)getAnonymousUserSendMsg:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(failure)failure;
+
+
+/// 邀请卡
+/// @param params 直播间id (liveId)
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)getMakeShareCard:(NSString *)params successBloc:(successBloc)successBlock failure:(failure)failure;
 @end
 
 NS_ASSUME_NONNULL_END
