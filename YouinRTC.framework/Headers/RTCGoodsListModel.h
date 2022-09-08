@@ -38,6 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) RTCGoodsProductModel *product;
 @property(nonatomic,assign) NSInteger order_no;
 @property(nonatomic,assign) NSInteger sort_no;
+@property(nonatomic,assign) NSInteger index;
 @property(nonatomic,assign) BOOL isShow;
 @end
 
