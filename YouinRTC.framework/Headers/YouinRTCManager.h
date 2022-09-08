@@ -772,10 +772,10 @@ YouinActionUserLeave
 
 
 /// 解开禁言
-/// @param params 禁言列表中的id
+/// @param params 禁言列表中的id 和 userId 被禁言者的个人id
 /// @param successBlock successBlock description
 /// @param failure failure description
-- (void)getDelForbiddenWords:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
+- (void)getDelForbiddenWords:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
 
 /// 送礼物排行榜
