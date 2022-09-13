@@ -66,8 +66,13 @@ NS_ASSUME_NONNULL_BEGIN
 @interface RTCAttModel : NSObject
 @property(nonatomic,strong) NSString *avatar;
 @property(nonatomic,assign) int userStatus;
+//真实的
 @property(nonatomic,assign) int pv_count;
 @property(nonatomic,assign) int like_count;
+//虚拟的
+@property(nonatomic,assign) int dummy_like;
+@property(nonatomic,assign) int dummy_pv;
+
 @property(nonatomic,assign) int count;
 @property(nonatomic,assign) int dummy_like_count;
 @property(nonatomic,strong) NSString *ws_type;
