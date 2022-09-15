@@ -657,7 +657,7 @@ YouinActionUserLeave
 ///  nickname，
 ///  headimg（可选）,
 ///  enterprise_id 企业id
-///   和token=md5(企业secret+userid)
+///   和token=md5(userid+企业secret)
 /// @param success success description
 /// @param failure failure description
 - (void)init:(NSDictionary *)userDic success:(successBloc)success failure:(nullable void (^)(NSError * nullable))failure;

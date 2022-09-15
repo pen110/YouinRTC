@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong) NSString *qiniu_user_id;
 //1－管理员, 2-子账号,(可以创建直播)
 //3-讲师 （无权创建直播，但是可以开关直播）
-//# 1－管理员, 2-子账号, 3-讲师, 4-直播助手 5-普通用户 6-匿名用户
+//# 1－管理员, 2-子账号（废弃）, 3-讲师, 4-直播助手 5-普通用户 6-匿名用户 7-子账号
 @property(nonatomic,assign) int user_type;
 //是否主播
 @property(nonatomic,assign) BOOL isHost;
