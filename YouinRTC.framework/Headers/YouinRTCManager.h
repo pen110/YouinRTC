@@ -834,6 +834,21 @@ YouinActionUserLeave
 /// @param failure failure description
 - (void)getCourseSendChatMsg:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull))failure;
 
+
+
+/// 机器人暖场片
+/// @param params liveId 直播间id,
+/// send_type 类型(1和2)
+/// parameter 持续多少秒 或 一次性发送多少条【最多20条】
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)sendRobotMsg:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(failure)failure;
+
+
+/// 主播发起签到
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)sendSignMsgSuccessBloc:(successBloc)successBlock failure:(failure)failure;
 @end
 
 NS_ASSUME_NONNULL_END
