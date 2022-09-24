@@ -848,6 +848,14 @@ YouinActionUserLeave
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)sendSignMsgSuccessBloc:(successBloc)successBlock failure:(failure)failure;
+
+
+/// 删除直播间
+/// @param params liveId 直播间id
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)delCourse:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(failure)failure;
+
 @end
 
 NS_ASSUME_NONNULL_END
