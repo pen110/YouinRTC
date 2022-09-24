@@ -600,7 +600,7 @@ YouinActionUserLeave
 
 /// 结束直播
 /// @param isEndLive 是否结束直播间，否，仅退出房间结束合流；是，结束直播间
--(void)stopLive:(BOOL)isEndLive suc:(void (^)(bool suc))suc;
+-(void)stopLive:(BOOL)isEndLive suc:(successBloc)successBlock failure:(failure)failure;
 
 /// 获取历史公告
 /// @param success 公告数组
@@ -843,7 +843,6 @@ YouinActionUserLeave
 /// @param successBlock successBlock description
 /// @param failure failure description
 - (void)sendRobotMsg:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(failure)failure;
-
 
 /// 主播发起签到
 /// @param successBlock successBlock description
