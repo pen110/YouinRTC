@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign) int giftCount;
 @property(nonatomic,strong) NSString* imageUrl;
 @property(nonatomic,strong) UIImage* image;
-@property(nonatomic,assign) int sendTime;
+@property(nonatomic,assign) int64_t sendTime;
 @property(nonatomic,strong) NSString *third_user_id;
 @property(nonatomic,strong)UIColor *color;
 

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BaseMsgModel.h</key>
 		<data>
-		/NeUPOsRKNaL/RvRlIXVgVTUI34=
+		1DBBOjFzs6nY+55z0v33n75dF90=
 		</data>
 		<key>Headers/CoursesModel.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/YouinRTCManager.h</key>
 		<data>
-		YJThBfkP6sDtfl8JqwGsXgHpyFs=
+		kdKA5/COHCvh6CABbXEbVM9zxww=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -83,11 +83,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/NeUPOsRKNaL/RvRlIXVgVTUI34=
+			1DBBOjFzs6nY+55z0v33n75dF90=
 			</data>
 			<key>hash2</key>
 			<data>
-			K+dOY/Q5IH32j/ZZv6yKwk6gsllRBtfA2h0fldUa79k=
+			g9+LZpHdnnB07v9VCUQxyUGNzCgPG84XBCqWjez+j6g=
 			</data>
 		</dict>
 		<key>Headers/CoursesModel.h</key>
@@ -248,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YJThBfkP6sDtfl8JqwGsXgHpyFs=
+			kdKA5/COHCvh6CABbXEbVM9zxww=
 			</data>
 			<key>hash2</key>
 			<data>
-			fMdqnoTfHtiZbnbKhIjI5gLlZW4BmDhD7OXglic0IeM=
+			o/Trk9NJkzPAhJ9j9Kq7lChY5uf/BX1ie+H2VnwvLuA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

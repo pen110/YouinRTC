@@ -95,6 +95,12 @@ typedef void (^failure)(id error);
 -(void)youinManager:(YouinRTCManager *)manager hasRedPacket:(nullable RTCTextModel *)redPacket;
 
 
+
+/// 超管结束直播
+/// @param manager manager description
+/// @param param param 会返回code 和msg
+- (void)youinManager:(YouinRTCManager *)manager withSuperTubeStop:(nullable RTCTextModel *)model;
+
 /*!
  * @abstract 信令回调
  *
@@ -613,8 +619,6 @@ YouinActionUserLeave
 /// @param failure 失败
 -(void)sendNotice:(RTCLiveNoticeModel *)model success:(void (^)(bool success))success failure:(void (^)(NSError *error))failure;
 
-
-
 /// ****************** 高级配置 **********************
 
 
@@ -764,6 +768,8 @@ YouinActionUserLeave
 /// @param failure failure description
 - (void)getDelKickOut:(NSString *)params successBloc:(successBloc)successBlock failure:(void (^)(NSError * _Nonnull error))failure;
 
+
+
 /// 禁言列表
 /// @param params 直播间id
 /// @param successBlock successBlock description
@@ -856,6 +862,10 @@ YouinActionUserLeave
 /// @param failure failure description
 - (void)delCourse:(NSDictionary *)params successBloc:(successBloc)successBlock failure:(failure)failure;
 
+/// 超管关闭直播间
+/// @param successBlock successBlock description
+/// @param failure failure description
+- (void)superTubeStopLiveWithSuc:(successBloc)successBlock failure:(failure)failure;
 @end
 
 NS_ASSUME_NONNULL_END
